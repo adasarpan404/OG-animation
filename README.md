@@ -1,5 +1,5 @@
 
-[![O-G-ANIMATION.png](https://i.postimg.cc/yNMxfMv4/O-G-ANIMATION.png)](https://postimg.cc/Z9LJnDGV)
+[![Recording-2022-12-08-at-19-52-38.gif](https://i.postimg.cc/PJvxhKBL/Recording-2022-12-08-at-19-52-38.gif)](https://postimg.cc/0Kxx0G5x)
 
 ## What is this?
 [![Components-with-Animation.png](https://i.postimg.cc/Hn5hwyj1/Components-with-Animation.png)](https://postimg.cc/dZs6vD85)
