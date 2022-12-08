@@ -1,8 +1,8 @@
 import React from 'react'
-import './Irregular.css'
+import './Style/Irregular.css'
 
 
-const Middle:Function = ()=> {
+function Irregular(): JSX.Element {
     return (
         <label>
             <input type="checkbox" id="check" />
@@ -13,4 +13,4 @@ const Middle:Function = ()=> {
     )
 }
 
-export default Middle
+export default Irregular

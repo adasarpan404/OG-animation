@@ -6,7 +6,10 @@ const stories = storiesOf('HamBurger', module);
 stories.add('App', () => {
 
     return (
-        <HamBurger.Irregular />
+        <div>
+            <HamBurger.ComeToMiddle />
+            
+        </div>
     )
 
 })
