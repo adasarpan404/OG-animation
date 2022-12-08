@@ -1,0 +1,7 @@
+{
+    "extends": "./ts.config.json",
+    "compilerOptions": {
+      "module": "CommonJS",
+      "types": ["node"]
+    }
+  }

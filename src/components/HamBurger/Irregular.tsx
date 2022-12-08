@@ -1,8 +1,10 @@
 import React from 'react'
 import './Irregular.css'
-function Middle() {
+
+
+const Middle:Function = ()=> {
     return (
-        <label for="check">
+        <label>
             <input type="checkbox" id="check" />
             <span></span>
             <span></span>
