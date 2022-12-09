@@ -47,10 +47,12 @@ span + span {
     top: 0;
     transform: rotate(0);
   }
+
   50% {
     top: 22px;
     transform: rotate(0);
   }
+
   100% {
     top: 22px;
     transform: rotate(45deg);
@@ -62,10 +64,12 @@ span + span {
     top: 22px;
     transform: rotate(45deg);
   }
+
   50% {
     top: 22px;
     transform: rotate(0deg);
   }
+
   100% {
     top: 0;
     transform: rotate(0deg);
@@ -77,10 +81,12 @@ span + span {
     bottom: 0;
     transform: rotate(0);
   }
+
   50% {
     bottom: 22px;
     transform: rotate(0);
   }
+
   100% {
     bottom: 22px;
     transform: rotate(135deg);
@@ -92,10 +98,12 @@ span + span {
     bottom: 22px;
     transform: rotate(135deg);
   }
+
   50% {
     bottom: 22px;
     transform: rotate(0);
   }
+
   100% {
     bottom: 0;
     transform: rotate(0);
@@ -106,6 +114,7 @@ span + span {
   50% {
     transform: scale(0);
   }
+
   100% {
     transform: scale(0);
   }
@@ -115,9 +124,11 @@ span + span {
   0% {
     transform: scale(0);
   }
+
   50% {
     transform: scale(0);
   }
+
   100% {
     transform: scale(1);
   }
