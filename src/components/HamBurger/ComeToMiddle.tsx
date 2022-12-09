@@ -3,6 +3,7 @@ import { useState } from 'react/cjs/react.development'
 import './Style/ComeToMiddle.css'
 
 function ComeToMiddle(): JSX.Element {
+    
     const [classForActive, setClassForActive] = useState(false);
     const setActive = () => {
         setClassForActive((classForActive: Boolean) => !classForActive);
