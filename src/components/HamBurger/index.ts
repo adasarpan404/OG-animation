@@ -1,11 +1,13 @@
 import Irregular from "./Irregular";
 import ComeToMiddle from "./ComeToMiddle";
 import ConvertArrow from "./ConvertArrow";
+import ConvertCross from "./ConvertCross";
 
-const Hamburger = {
+const HamBurger = {
   Irregular,
   ComeToMiddle,
-  ConvertArrow
+  ConvertArrow,
+  ConvertCross
 };
 
-export default Hamburger;
+export default HamBurger;
