@@ -213,7 +213,82 @@
     width: 50%;
     transform: translate(32px, -11px) rotatez(45deg);
   }
+  100% {
+    transform: rotate(0);
+  }
+}
 
+/** convert cross hamburger animation*/
+
+@keyframes convertcross-top {
+  0% {
+    transform: rotate(0);
+  }
+  50% {
+    top: 22px;
+    transform: rotate(0);
+  }
+  100% {
+    top: 22px;
+    transform: rotate(-45deg);
+  }
+}
+
+@keyframes convertcross-top-2 {
+  0% {
+    top: 22px;
+    transform: rotate(-45deg);
+  }
+  50% {
+    top: 22px;
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+
+@keyframes convertcross-middle {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(45deg);
+  }
+}
+
+@keyframes convertcross-middle-2 {
+  0% {
+    transform: rotate(45deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+
+@keyframes convertcross-bottom {
+  0% {
+    transform: rotate(0);
+  }
+  50% {
+    bottom: 22px;
+    transform: rotate(0);
+  }
+  100% {
+    bottom: 22px;
+    transform: rotate(45deg);
+  }
+}
+
+@keyframes convertcross-bottom-2 {
+  0% {
+    bottom: 22px;
+    transform: rotate(45deg);
+  }
+  50% {
+    bottom: 22px;
+    transform: rotate(0);
+  }
   100% {
     transform: rotate(0);
   }

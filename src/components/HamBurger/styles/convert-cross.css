@@ -1,0 +1,33 @@
+.convertcross {
+  display: block;
+  width: 100%;
+  border-radius: 3px;
+  height: 8px;
+  background: #000;
+  transition: all 0.5s;
+  position: relative;
+}
+
+.active .convertcross.firstChild {
+  animation: ease-in-out 0.5s convertcross-top forwards;
+}
+
+.not-active .convertcross.firstChild {
+  animation: ease-in-out 0.5s convertcross-top-2 forwards;
+}
+
+.active .convertcross.secondChild {
+  animation: ease-in-out 0.5s convertcross-middle forwards;
+}
+
+.not-active .convertcross.secondChild {
+  animation: ease-in-out 0.5s convertcross-middle-2 forwards;
+}
+
+.active .convertcross.thirdChild {
+  animation: ease-in-out 0.5s convertcross-bottom forwards;
+}
+
+.not-active .convertcross.thirdChild {
+  animation: ease-in-out 0.5s convertcross-bottom-2 forwards;
+}

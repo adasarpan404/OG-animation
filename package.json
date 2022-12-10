@@ -14,7 +14,7 @@
 			"git add"
 		]
 	},
-  "author": "Arpan Dasd",
+  "author": "Arpan Das",
   "license": "ISC",
   "devDependencies": {
     "@babel/preset-env": "^7.20.2",
