@@ -8,6 +8,12 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
+  "lint-staged": {
+		"src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
+			"prettier --write",
+			"git add"
+		]
+	},
   "author": "Arpan Dasd",
   "license": "ISC",
   "devDependencies": {
@@ -24,6 +30,9 @@
     "@storybook/react": "^6.5.14",
     "@storybook/testing-library": "^0.0.13",
     "babel-loader": "^8.3.0",
+    "husky": "^3.1.0",
+    "lint-staged": "^9.5.0",
+    "prettier": "^1.19.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -31,5 +40,11 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "husky": {
+		"hooks": {
+			"pre-commit": "lint-staged"
+		}
+	}
+
 }
