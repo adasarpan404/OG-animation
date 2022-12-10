@@ -1,0 +1,220 @@
+/* Come To Middle Hamburger Animation */
+@keyframes cometomiddle-top {
+  0% {
+    top: 0;
+    transform: rotate(0);
+  }
+
+  50% {
+    top: 22px;
+    transform: rotate(0);
+  }
+
+  100% {
+    top: 22px;
+    transform: rotate(45deg);
+  }
+}
+
+@keyframes cometomiddle-top-2 {
+  0% {
+    top: 22px;
+    transform: rotate(45deg);
+  }
+
+  50% {
+    top: 22px;
+    transform: rotate(0deg);
+  }
+
+  100% {
+    top: 0;
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes cometomiddle-middle {
+  50% {
+    transform: scale(0);
+  }
+
+  100% {
+    transform: scale(0);
+  }
+}
+
+@keyframes cometomiddle-middle-2 {
+  0% {
+    transform: scale(0);
+  }
+
+  50% {
+    transform: scale(0);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes cometomiddle-bottom {
+  0% {
+    bottom: 0;
+    transform: rotate(0);
+  }
+
+  50% {
+    bottom: 22px;
+    transform: rotate(0);
+  }
+
+  100% {
+    bottom: 22px;
+    transform: rotate(135deg);
+  }
+}
+
+@keyframes cometomiddle-bottom-2 {
+  0% {
+    bottom: 22px;
+    transform: rotate(135deg);
+  }
+
+  50% {
+    bottom: 22px;
+    transform: rotate(0);
+  }
+
+  100% {
+    bottom: 0;
+    transform: rotate(0);
+  }
+}
+
+/* Convert Arrow Hamburger Animation */
+
+@keyframes convertarrow-top {
+  0% {
+    top: 0;
+    transform: rotate(0);
+  }
+
+  100% {
+    left: -2px;
+    top: 8px;
+    width: 50%;
+    transform: rotate(-45deg);
+  }
+}
+
+@keyframes convertarrow-top-2 {
+  0% {
+    left: -2px;
+    top: 8px;
+    width: 50%;
+    transform: rotate(-45deg);
+  }
+
+  100% {
+    top: 0;
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes convertarrow-bottom {
+  0% {
+    bottom: 0;
+    transform: rotate(0);
+  }
+
+  100% {
+    left: -2px;
+    bottom: 8px;
+    width: 50%;
+    transform: rotate(45deg);
+  }
+}
+
+@keyframes convertarrow-bottom-2 {
+  0% {
+    left: -2px;
+    bottom: 8px;
+    width: 50%;
+    transform: rotate(45deg);
+  }
+
+  100% {
+    bottom: 0;
+    transform: rotate(0);
+  }
+}
+
+/* Irregular Hamburger Animation */
+
+@keyframes irregular-top {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform-origin: bottom;
+    transform: rotatez(45deg) translate(8px, 0px);
+  }
+}
+
+@keyframes irregular-top-2 {
+  0% {
+    transform-origin: bottom;
+    transform: rotatez(45deg) translate(8px, 0px);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes irregular-middle {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform-origin: top;
+    transform: rotatez(-45deg);
+  }
+}
+
+@keyframes irregular-middle-2 {
+  0% {
+    transform-origin: top;
+    transform: rotatez(-45deg);
+  }
+
+  100% {
+    transform: rotate(0);
+  }
+}
+
+@keyframes irregular-bottom {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform-origin: bottom;
+    width: 50%;
+    transform: translate(32px, -11px) rotatez(45deg);
+  }
+}
+
+@keyframes irregular-bottom-2 {
+  0% {
+    transform-origin: bottom;
+    width: 50%;
+    transform: translate(32px, -11px) rotatez(45deg);
+  }
+
+  100% {
+    transform: rotate(0);
+  }
+}

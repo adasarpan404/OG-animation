@@ -1,0 +1,9 @@
+.box {
+  width: 80px;
+  cursor: pointer;
+}
+
+.secondChild,
+.thirdChild {
+  margin-top: 14px;
+}

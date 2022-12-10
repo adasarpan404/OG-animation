@@ -1,0 +1,41 @@
+.convertIrregularLine {
+  display: block;
+  width: 100%;
+  border-radius: 3px;
+  height: 8px;
+  background: #000;
+  transition: all 0.3s;
+  position: relative;
+}
+
+.convertIrregularLine.firstChild {
+  width: 50%;
+}
+
+.convertIrregularLine.thirdChild {
+  width: 75%;
+}
+
+.active .convertIrregularLine.firstChild {
+  animation: ease-in-out 0.3s irregular-top forwards;
+}
+
+.not-active .convertIrregularLine.firstChild {
+  animation: ease-in-out 0.3s irregular-top-2 forwards;
+}
+
+.active .convertIrregularLine.secondChild {
+  animation: ease-in-out 0.3s irregular-middle forwards;
+}
+
+.not-active .convertIrregularLine.secondChild {
+  animation: ease-in-out 0.3s irregular-middle-2 forwards;
+}
+
+.active .convertIrregularLine.thirdChild {
+  animation: ease-in-out 0.3s irregular-bottom forwards;
+}
+
+.not-active .convertIrregularLine.thirdChild {
+  animation: ease-in-out 0.3s irregular-bottom-2 forwards;
+}

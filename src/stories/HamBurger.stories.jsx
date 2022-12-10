@@ -1,18 +1,18 @@
 import { storiesOf } from "@storybook/react";
-import HamBurger from "../components/HamBurger";
+import Hamburger from "../components/Hamburger";
 
-const stories = storiesOf("HamBurger", module);
+const stories = storiesOf("Hamburger", module);
 
-stories.add("App", () => {
+stories.add("Animation", () => {
   return (
     <div>
-      <HamBurger.ComeToMiddle />
+      <Hamburger.ComeToMiddle />
       <br />
       <br />
-      <HamBurger.Irregular />
+      <Hamburger.Irregular />
       <br />
       <br />
-      <HamBurger.ConvertArrow />
+      <Hamburger.ConvertArrow />
     </div>
   );
 });
