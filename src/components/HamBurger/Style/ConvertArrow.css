@@ -12,3 +12,11 @@
   transition: all 0.3s;
   position: relative;
 }
+
+.secondChild {
+  margin-top: 14px;
+}
+
+.thirdChild {
+  margin-top: 14px;
+}

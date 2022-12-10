@@ -13,10 +13,7 @@
   position: relative;
 }
 
-.secondChild {
-  margin-top: 14px;
-}
-
+.secondChild,
 .thirdChild {
   margin-top: 14px;
 }
