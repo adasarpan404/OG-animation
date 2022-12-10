@@ -4,30 +4,30 @@
   border-radius: 3px;
   height: 8px;
   background: #000;
-  transition: all 0.5s;
+  transition: all 0.3s;
   position: relative;
 }
 
 .active .convertcross.firstChild {
-  animation: ease-in-out 0.5s convertcross-top forwards;
+  animation: ease-in-out 0.3s convertcross-top forwards;
 }
 
 .not-active .convertcross.firstChild {
-  animation: ease-in-out 0.5s convertcross-top-2 forwards;
+  animation: ease-in-out 0.3s convertcross-top-2 forwards;
 }
 
 .active .convertcross.secondChild {
-  animation: ease-in-out 0.5s convertcross-middle forwards;
+  animation: ease-in-out 0.3s convertcross-middle forwards;
 }
 
 .not-active .convertcross.secondChild {
-  animation: ease-in-out 0.5s convertcross-middle-2 forwards;
+  animation: ease-in-out 0.3s convertcross-middle-2 forwards;
 }
 
 .active .convertcross.thirdChild {
-  animation: ease-in-out 0.5s convertcross-bottom forwards;
+  animation: ease-in-out 0.3s convertcross-bottom forwards;
 }
 
 .not-active .convertcross.thirdChild {
-  animation: ease-in-out 0.5s convertcross-bottom-2 forwards;
+  animation: ease-in-out 0.3s convertcross-bottom-2 forwards;
 }
