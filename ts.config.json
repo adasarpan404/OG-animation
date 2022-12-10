@@ -19,7 +19,7 @@
       "baseUrl": "./src",
       "paths": {
         "@/*": ["./src/*", "./dist/*"]
-      },
+      }
     },
     "include": ["src"],
     "references": [{ "path": "./tsconfig.node.json" }]
