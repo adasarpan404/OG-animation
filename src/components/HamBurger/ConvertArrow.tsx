@@ -1,6 +1,9 @@
 import React from "react";
 import { useState } from "react/cjs/react.development";
-import "./Style/ConvertArrow.css";
+import "./styles/convert-arrow.css";
+import "./styles/common.css";
+import "./styles/animations.css";
+
 function ConvertArrow(): JSX.Element {
   const [classForActive, setClassForActive] = useState(false);
   const setActive = () => {
@@ -8,14 +11,14 @@ function ConvertArrow(): JSX.Element {
   };
   return (
     <div
-      className={`convertArrow ${
-        classForActive ? "btn-active" : "btn-not-active"
+      className={`box ${
+        classForActive ? "active" : "not-active"
       }`}
       onClick={setActive}
     >
-      <div className="firstChild"></div>
-      <div className="secondChild"></div>
-      <div className="thirdChild"></div>
+      <div className="convertArrowLine firstChild"></div>
+      <div className="convertArrowLine secondChild"></div>
+      <div className="convertArrowLine thirdChild"></div>
     </div>
   );
 }
