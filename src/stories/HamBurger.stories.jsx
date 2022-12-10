@@ -8,7 +8,9 @@ stories.add('App', () => {
     return (
         <div>
             <HamBurger.ComeToMiddle />
-            
+            <br/>
+            <br/>
+            <HamBurger.Irregular />
         </div>
     )
 
