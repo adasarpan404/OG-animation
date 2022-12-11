@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react/cjs/react.development";
 import "./styles/convert-cross.css";
 import "./styles/animations.css";
-import "./styles/common.css";
+import { Box, FirstChild, SecondChild, ThirdChild } from "./styles/common";
 
 function ConvertCross(): JSX.Element {
   const [classForActive, setClassForActive] = useState(false);
@@ -11,14 +11,21 @@ function ConvertCross(): JSX.Element {
     setClassForActive((classForActive: Boolean) => !classForActive);
   };
   return (
-    <div
-      className={`box ${classForActive ? "active" : "not-active"}`}
+    <Box
+      className={`${classForActive ? "active" : "not-active"}`}
       onClick={setActive}
     >
-      <div className="convertcross firstChild"></div>
-      <div className="convertcross secondChild"></div>
-      <div className="convertcross thirdChild"></div>
-    </div>
+      <div className="convertcross">
+        <FirstChild />
+      </div>
+
+      <div className="convertcross">
+        <SecondChild />
+      </div>
+      <div className="convertcross">
+        <ThirdChild />
+      </div>
+    </Box>
   );
 }
 
