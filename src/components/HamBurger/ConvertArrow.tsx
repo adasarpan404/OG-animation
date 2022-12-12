@@ -9,6 +9,7 @@ function ConvertArrow(): JSX.Element {
   const setActive = () => {
     setClassForActive((classForActive: Boolean) => !classForActive);
   };
+
   return (
     <div
       className={`box ${classForActive ? "active" : "not-active"}`}
