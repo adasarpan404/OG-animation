@@ -10,6 +10,7 @@ function ConvertCross(): JSX.Element {
   const setActive = () => {
     setClassForActive((classForActive: Boolean) => !classForActive);
   };
+
   return (
     <Box
       className={`${classForActive ? "active" : "not-active"}`}
