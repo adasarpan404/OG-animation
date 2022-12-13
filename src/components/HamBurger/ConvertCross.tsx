@@ -20,13 +20,13 @@ function ConvertCross(): JSX.Element {
   return (
     <>
       {classForActive ? (
-        <Box>
+        <Box onClick={setActive}>
           <ActiveConvertCrossFirstChild />
           <ActiveConvertCrossSecondChild />
           <ActiveConvertCrossThirdChild />
         </Box>
       ) : (
-        <Box>
+        <Box onClick={setActive}>
           <NActiveConvertCrossFirstChild />
           <NActiveConvertCrossSecondChild />
           <NActiveConvertCrossThirdChild />
