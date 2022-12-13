@@ -1,5 +1,5 @@
 import { storiesOf } from "@storybook/react";
-import Hamburger from "../components/Hamburger";
+import Hamburger from "../components/HamBurger";
 
 const stories = storiesOf("Hamburger", module);
 
