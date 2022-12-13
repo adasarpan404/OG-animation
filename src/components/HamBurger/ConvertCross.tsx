@@ -1,8 +1,14 @@
 import React from "react";
 import { useState } from "react/cjs/react.development";
-import "./styles/convert-cross.css";
-import "./styles/animations.css";
-import { Box, FirstChild, SecondChild, ThirdChild } from "./styles/common";
+import { Box } from "./styles/common";
+import {
+  ActiveConvertCrossFirstChild,
+  ActiveConvertCrossSecondChild,
+  ActiveConvertCrossThirdChild,
+  NActiveConvertCrossFirstChild,
+  NActiveConvertCrossSecondChild,
+  NActiveConvertCrossThirdChild
+} from "./styles/convert-cross";
 
 function ConvertCross(): JSX.Element {
   const [classForActive, setClassForActive] = useState(false);
@@ -12,21 +18,21 @@ function ConvertCross(): JSX.Element {
   };
 
   return (
-    <Box
-      className={`${classForActive ? "active" : "not-active"}`}
-      onClick={setActive}
-    >
-      <div className="convertcross">
-        <FirstChild />
-      </div>
-
-      <div className="convertcross">
-        <SecondChild />
-      </div>
-      <div className="convertcross">
-        <ThirdChild />
-      </div>
-    </Box>
+    <>
+      {classForActive ? (
+        <Box>
+          <ActiveConvertCrossFirstChild />
+          <ActiveConvertCrossSecondChild />
+          <ActiveConvertCrossThirdChild />
+        </Box>
+      ) : (
+        <Box>
+          <NActiveConvertCrossFirstChild />
+          <NActiveConvertCrossSecondChild />
+          <NActiveConvertCrossThirdChild />
+        </Box>
+      )}
+    </>
   );
 }
 
