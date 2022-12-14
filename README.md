@@ -9,3 +9,4 @@
 ### Contributor
 
 - [Arpan Das](https://github.com/adasarpan404)
+- [Vaibhav Agarwal](https://github.com/vaibhava17)
